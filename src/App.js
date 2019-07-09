@@ -9,6 +9,11 @@ function App() {
     <div >
       <Switch>
         <Route exact path='/' component={HomePage} />
+        {/* <Route exact path='/shop/hats' component={HatsPage} />
+        <Route exact path='/shop/jackets' component={JacketsPage} />
+        <Route exact path='/shop/sneakers' component={SneakersPage} />
+        <Route exact path='/shop/womens' component={WomensPage} />
+        <Route exact path='/shop/mens' component={MensPage} /> */}
       </Switch>
     </div>
   );
