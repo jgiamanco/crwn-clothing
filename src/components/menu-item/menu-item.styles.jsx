@@ -30,6 +30,10 @@ export const MenuItemContainer = styled.div`
   @media screen and (max-width: 800px) {
     height: 200px;
   }
+  @media screen and (max-width: 600px) {
+    height: 45vh;
+    width: 70vw;
+  }
 `;
 
 export const BackgroundImageContainer = styled.div`

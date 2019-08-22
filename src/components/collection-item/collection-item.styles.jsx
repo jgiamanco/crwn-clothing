@@ -28,6 +28,17 @@ export const CollectionItemContainer = styled.div`
       }
     }
   }
+  @media screen and (max-width: 500px) {
+    width: 70vw;
+    &:hover {
+      .image {
+        opacity: unset;
+      }
+      button {
+        opacity: unset;
+      }
+    }
+  }
 `;
 
 export const AddButton = styled(CustomButton)`
